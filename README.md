@@ -8,16 +8,17 @@ Find the stable matching pair from a list of Men and Women where each of their p
 
 # Description
   Data Read in the following Input Format 
-N
-pref list
 
-Example:
-5
-5 1 2 4 3
-3 2 4 1 5
-2 3 4 5 1
-1 5 4 3 2
-4 2 5 3 1
+  N\
+  pref list
+
+  Example:\
+  5\
+  5 1 2 4 3\
+  3 2 4 1 5\
+  2 3 4 5 1\
+  1 5 4 3 2\
+  4 2 5 3 1
 
 
 ### Compiling and Running
