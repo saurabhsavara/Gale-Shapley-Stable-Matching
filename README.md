@@ -4,22 +4,37 @@ Find the stable matching pair from a list of Men and Women where each of their p
 
 # New Features!
 
-  - Given a set of "stable" matching, check if there is a "more stable" matching available for any man or woman in the list.
+  -Verify a given stable matching is the best possible matching.
+
+# Description
+  Data Read in the following Input Format 
+N
+pref list
+
+Example:
+5
+5 1 2 4 3
+3 2 4 1 5
+2 3 4 5 1
+1 5 4 3 2
+4 2 5 3 1
+
 
 ### Compiling and Running
-
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install the dependencies and devDependencies and start the server.
 
 ```
 make
 ```
 
 ```
-match man.txt woman.txt output.txt
+./matchmaking find %mantextfile% %womantextfile% %outputfile%
 ```
 
 ```
-find man.txt woman.txt stable.txt output.txt 
+./matchmaking stable %mantextfile% %womantextfile% %unstablefile%
 ```
+
+# Error Handling 
+  - No missing pairs
+  - No repeated pairings 
+  - Equal Number of men and woman in preference list
