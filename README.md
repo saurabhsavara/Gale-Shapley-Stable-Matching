@@ -28,11 +28,11 @@ make
 ```
 
 ```
-./matchmaking find %mantextfile% %womantextfile% %outputfile%
+./matchmaking find %man.txt% %woman.txt% %outputfile%
 ```
 
 ```
-./matchmaking stable %mantextfile% %womantextfile% %unstablefile%
+./matchmaking stable %man.txt% %woman.txt% %unstablefile%
 ```
 
 # Error Handling 
